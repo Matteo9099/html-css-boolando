@@ -22,6 +22,7 @@
 .card:hover .image-due{
     display: block;
     cursor: pointer;
+    border: 3px solid yellow;
 }
 
 .image-due{
