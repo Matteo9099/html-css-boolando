@@ -59,4 +59,30 @@
    background-color: green;
 }
 
+.card-text .sottotitle{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text h2{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text .price{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: orange;  
+}
+
+.card-text .price-old{
+    margin-left: 5px;
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+}
+
 /* fine istruzione card */
