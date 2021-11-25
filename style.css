@@ -1,8 +1,6 @@
 .container{
     width: 90%;
-    height: 500px;
     margin: 20px auto;
-    background-color: red;
 }
 
 /* inizio istruzioni card */
@@ -15,8 +13,9 @@
 }
 
 .card img{
-    width: 100%;
-    height: 100%;
+ width: 100%;
+ height: 100%;
+ display: inline-block;
 }
 
 .card .heart{
@@ -50,12 +49,14 @@
 .card .sales.red{
     position: absolute;
     left: 0;
+    bottom: 0;
     background-color:red;
 }
 
 .card .sales.green{
    position: relative;
    left: 0;
+   bottom: 0;
    background-color: green;
 }
 
