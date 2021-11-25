@@ -21,7 +21,7 @@
 
 .card .heart{
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 0;
     width: 30px;
     height: 30px;
@@ -29,6 +29,34 @@
     line-height: 30px;
     background-color: #fff;
     color: black;
+}
+
+.etichette-sales{
+    width: 170px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+}
+
+.sales{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+}
+
+.card .sales.red{
+    position: absolute;
+    left: 0;
+    background-color:red;
+}
+
+.card .sales.green{
+   position: relative;
+   left: 0;
+   background-color: green;
 }
 
 /* fine istruzione card */
